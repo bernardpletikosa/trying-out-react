@@ -1,0 +1,50 @@
+.App {
+  background-color: #EEEEEE;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.cell{
+  border-radius: 50%;
+  border: 0px;
+  height: 10vmin;
+  width: 10vmin;
+  margin: 2px;
+}
+
+.cell0{
+  background: #FFFFFF;
+}
+.cell0-text{
+  color: #333333;
+}
+
+.cell1 {
+  background: #01C6B2;
+}
+.cell1-text {
+  color: #01C6B2;
+}
+
+.cell2 {
+  background: #006C96;
+}
+.cell2-text {
+  color: #006C96;
+}
+
+.button {
+  background-color: #FFFFFF;
+  color: #333333;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
